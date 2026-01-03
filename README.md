@@ -50,7 +50,7 @@ The app will open automatically at `http://localhost:8501`. Enter a product cate
 
 ## Project Structure
 
-- `main.py` - Core tracking logic and CLI interface
+- `main.py` - Core Logic and Functions
 - `dashboard.py` - Interactive web-based visualization dashboard
 - `prompts.py` - AI prompt templates and utilities for queries
 - `requirements.txt` - Python dependencies
@@ -69,3 +69,4 @@ The app will open automatically at `http://localhost:8501`. Enter a product cate
 * **Historical Tracking:** Connect the dashboard to a simple database like Postgres to save run data. This would allow users to track how their brand visibility trends over time.
 * **Sentiment Analysis:** Enhance the "Contexts" feature by running a secondary lightweight sentiment classification on the mentions (Positive/Neutral/Negative) rather than just listing them.
 * **Multi-Model Support:** The long term goal is to compare visibility across all major LLM proviers.
+
